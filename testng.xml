@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="test 1">
+        <classes>
+            <class name="tests.Homepage">
+                <methods>
+                    <include name="addtocart"/>
+                    <include name="about_from_humburgericon"/>
+                    <include name="Resetappstate_from_humburgericon"/>
+                    <include name="logout"/>
+                </methods>
+            </class>
+            <class name="tests.loginpage">
+                <methods>
+                    <include name="logindata"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
